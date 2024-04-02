@@ -1,4 +1,7 @@
 import React from "react";
+import StarField from './StarField';
+import logo from './logo.png';
+
 
 const MainContent = () => {
     return (
@@ -8,19 +11,24 @@ const MainContent = () => {
 		            A long time ago, in a galaxy far,<br /> far away....
 	            </section>
 	            <section className="logo">
-		            <img src="logo.png" alt="DevDrawer Star Wars Scroll Screen Mockup" />
+		            <img src={logo} alt="Tylers Birthday Logo Intro" />
 	            </section>
 	                <div id="scroller">
 		                <div id="content">
 			                <p id="title">Episode XXVII</p>
                                 <p id="subtitle">A New Wrinkle</p>
                                 <br />
-                                <p>The DevDrawer was inspired to create something for nerds and geeks alike but unfortunately he missed his own deadline to create something for the day in honor of Star Wars. This episode is to help fix that. So, let's get started.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
-                                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. </p>
-                                <p>Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. </p>
-                                <p>Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. </p>
-                                <p>Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. </p>
+
+                                <p>It is a period of celebration. Tyler has reached a significant milestone in his journey through the cosmos. Friends and family gather to commemorate his passage into another orbit around the sun.</p>
+
+                                <p>From the moment Tyler entered this world, he's been on a collision course with destiny... and the occasional asteroid. Here's to another year of navigating life's cosmic curveballs with grace, humor, and a healthy dose of sarcasm.</p>
+
+                                <p>As Tyler's Jedi powers awaken, he finds himself capable of extraordinary feats, including a surprising proficiency in passing wind with more force than Jabba the Hutt.</p>
+
+                                <p>But amidst the festivities, unseen forces stir in the shadows. Challenges and adventures await Tyler on the horizon, testing his courage and resilience as he ventures forth into the unknown.</p>
+
+                                <p>Join us as we embark on this epic saga, celebrating Tyler's birth and the countless wonders that await in the vast expanse of time and space. May the force be with him, today and always.</p>
+
                             </div>
                         </div>
             </div>
