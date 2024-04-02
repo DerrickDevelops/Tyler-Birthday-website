@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+  background: rgb(20, 20, 20);
+  overflow: hidden;
+  font-family: 'Roboto';
+  margin: 80% 0 0 0;
+  position: relative;
+}
+
+.wrapper img {
+  width: 100%;
+}
+
+:root::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(0,0,0,1) 35%);
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  perspective: 300px;
+}
+
+.scrolling-text {
+  position: relative;
+  color: #ffc909;
+  font-size: clamp(1rem, 3vw, 5rem);
+  line-height: 1.5em;
+  font-weight: 800;
+  text-align: justify;
+  animation: scroll 250s linear infinite;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+@keyframes scroll {
+  from {top: 0; transform: translateZ(10px) translateY(200px) rotateX(23deg) }
+  to {top: -8500px; transform: translateZ(-2100px) rotateX(24deg)}
+}
