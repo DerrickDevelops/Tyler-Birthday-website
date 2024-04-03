@@ -6,6 +6,7 @@ import logo from './logo.png';
 const MainContent = () => {
     return (
             <div className="wrapper">
+                <StarField />
             <div className="stars"></div>
 	            <section className="intro">
 		            A long time ago, in a galaxy far,<br /> far away....

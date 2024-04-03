@@ -38,7 +38,7 @@ const StarField = () => {
     };
   }, []);
 
-  return <div className="stars" />;
+//   return <div className="stars" />;
 };
 
 export default StarField;
